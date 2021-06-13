@@ -3,7 +3,12 @@ li {
    margin-bottom: 0.25rem
 }
 p {
-   font-family: 	Copperplate, Papyrus, fantasy
+   font-family: 	Copperplate, Papyrus, fantasy;
+   margin-left: 1rem;
+   font-size: 1.5rem;
+   border: 2px solid green;
+   width: 30rem;
+   padding-left: 1rem;
 }
 ul {
   list-style-type: circle
@@ -21,12 +26,19 @@ button{
  border-color: gray;
  margin-top: 1rem;
  width: 222px;
- height: 30px
+ height: 30px;
+ margin-left: 2rem;
 }
 select:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    font-size: 1.25rem
+}
 
 
 
