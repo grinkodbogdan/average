@@ -1,2 +1,2 @@
 # average
-Ocena średnioroczna
+Kalkulator ocena średniorocznej
