@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>OBLICZ SWOJA SREDNIA!</h1>
+<button onclick="myFunction()">Toggle dark mode</button>
 <ul>
     <li>
         <div class="item">
@@ -154,19 +155,6 @@
     </li>
     <li>
         <div class="item">
-        Zachowanie
-        <select>
-            <option value="6">6</option>
-            <option value="5">5</option>
-            <option value="4">4</option>
-            <option value="3">3</option>
-            <option value="2">2</option>
-            <option value="1">1</option>
-        </select>
-        </div>
-    </li>
-    <li>
-        <div class="item">
         Historia
         <select>
             <option value="6">6</option>
@@ -191,10 +179,24 @@
         </select>
         </div>
     </li>
+    <li>
+        <div class="item">
+        Zachowanie
+        <select id="zachowanie">
+            <option value="6">Celujący</option>
+            <option value="5">Bardzo dobry</option>
+            <option value="4">Dobry</option>
+            <option value="3">Poprawne</option>
+            <option value="2">Nieodpowiednie</option>
+            <option value="1">Naganne</option>
+        </select>
+        </div>
+    </li>
 </ul>
     <button type="button" name="Calculate" onclick="calculate()">Calculate</button>
     <p>Twoja srednia to: <span id="result"></span></p>
     <h6>B.H PRODUCTION</h6>
     <script src="script.js"></script>
+
 </body>
 </html>
